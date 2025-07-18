@@ -1,0 +1,138 @@
+.user-edit-form {
+  width: 100%;
+  max-width: 820px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.user-edit-form label {
+  color: #ffffff !important;
+}
+
+.edit-section {
+  background: linear-gradient(to right, #5b086f93, #151527c8);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 16px rgba(126, 34, 206, 0.2);
+}
+
+.section-title {
+  font-size: 1rem;
+  color: #f6f6f6;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.input-field {
+  background: #3b3b48ad;
+  color: #f3f3f3;
+  border: 1px solid #6d28d9;
+  border-radius: 8px;
+  padding: 0.7rem;
+}
+
+.input-field:focus {
+  border-color: #a78bfa;
+  box-shadow: 0 0 6px #7e22ce60;
+}
+
+.save-button {
+  background-color: #8612ebbe;
+  border: none;
+  font-weight: bold;
+  width: 30%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.save-button:hover {
+  background-color: #6a1bb3;
+}
+
+.form-group-password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.password-input-wrapper {
+  max-width: 220px;
+  width: 100%;
+  max-height: 80px;
+  padding: none !important;
+}
+
+.input-field.p-password-input,
+.input-field input {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: none !important;
+  font-size: 0.95rem;
+  border-radius: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  min-height: 40px;
+}
+
+.p-password.input-field,
+.p-password.input-field .p-inputtext {
+  min-height: 36px !important;
+  padding: 0.25rem 0.75rem !important;
+  font-size: 0.9rem;
+}
+
+.p-password.input-field.p-component.p-inputwrapper {
+  padding: 0 !important;
+  height: auto !important;
+  min-height: 36px !important;
+  line-height: 1.2;
+}
+
+.p-password .p-password-icon {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-field.p-password-input:focus-within,
+.input-field input:focus {
+  outline: none;
+  border-color: #9d4edd;
+  box-shadow: 0 0 0 2px rgba(157, 78, 221, 0.3);
+  max-height: 50px;
+  margin: none !important;
+  padding: none !important;
+}
+
+.input-field .p-inputtext {
+  background: transparent !important;
+  color: inherit !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-size: inherit;
+}

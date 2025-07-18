@@ -1,0 +1,114 @@
+.admin-assigned-flows-table-container {
+  width: 100%;
+  padding: 0px;
+  background: transparent;
+  backdrop-filter: blur(8px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.admin-assigned-flows-table .p-datatable {
+  background: rgba(20, 20, 30, 0.815) !important;
+  color: #f1f1f1 !important;
+  font-size: 0.65rem;
+}
+
+.admin-assigned-flows-table .p-datatable-thead .p-selection-column .p-checkbox {
+  display: none !important;
+}
+
+.admin-assigned-flows-table .p-datatable-thead > tr > th {
+  background-color: rgba(55, 14, 96, 0.67);
+  color: #ffffff !important;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(198, 191, 206, 0.589);
+}
+
+.admin-assigned-flows-table .p-datatable-tbody > tr {
+  background: transparent;
+  color: #e0e0e0;
+  transition: 0.3s ease-in-out;
+}
+
+.admin-assigned-flows-table .p-datatable-tbody > tr:hover {
+  background: rgba(255, 255, 255, 0.156);
+}
+
+.admin-assigned-flows-table .p-inputtext {
+  color: rgb(26, 24, 24);
+  border: 1px solid rgba(200, 150, 255, 0.3);
+}
+
+.admin-assigned-flows-table .p-paginator {
+  background: rgba(104, 103, 103, 0.018);
+  color: rgb(32, 30, 30);
+  border-radius: 6px;
+}
+
+.admin-assigned-flows-table
+  .p-paginator
+  .p-paginator-pages
+  .p-paginator-page.p-highlight {
+  background: white;
+  color: rgb(42, 40, 40);
+  border-radius: 4px;
+}
+
+.admin-assigned-flows-table .p-sortable-column-icon,
+.admin-assigned-flows-table .p-column-filter-menu-button,
+.admin-assigned-flows-table .pi {
+  color: #ffffff !important;
+}
+
+.admin-assigned-flows-table .p-paginator-icon {
+  color: #ffffff !important;
+}
+
+.admin-assigned-flows-table .p-column-filter-overlay {
+  background-color: rgba(30, 20, 40, 0.347);
+  border: 1px solid rgba(177, 8, 228, 0.4);
+  box-shadow: 0 0 12px rgba(177, 8, 228, 0.3);
+  color: black;
+  border-radius: 10px;
+}
+
+.admin-assigned-flows-table .p-column-filter-overlay .p-button {
+  background: rgba(150, 60, 220, 0.7);
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.admin-assigned-flows-table .p-column-filter-overlay .p-button:hover {
+  background: rgba(190, 90, 255, 0.85);
+  box-shadow: 0 0 6px rgba(177, 8, 228, 0.5);
+}
+
+.admin-assigned-flows-table
+  .p-column-filter-overlay
+  .p-button.p-button-secondary {
+  background: rgba(201, 150, 255, 0.199);
+  border: 1px solid rgba(177, 8, 228, 0.6);
+  color: #e2dee2;
+}
+
+.admin-assigned-flows-decline-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.admin-assigned-flows-decline-button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
+  color: white;
+  transform: scale(1.05);
+}

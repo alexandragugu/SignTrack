@@ -1,0 +1,105 @@
+.custom-table-system-files {
+  margin-left: 1%;
+}
+
+.custom-table-system-files .p-datatable {
+  background-color: rgba(20, 20, 30, 0.815);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  height: 100%;
+}
+
+.p-column-filter-menu .p-dropdown,
+.p-column-filter-menu .p-inputtext {
+  background-color: #2b2b3d !important;
+  color: #ffffff !important;
+  border: 1px solid #6d28d9 !important;
+}
+
+.p-column-filter-menu .p-dropdown .p-dropdown-label {
+  color: #ffffff !important;
+}
+
+.p-column-filter-buttonbar .p-button.p-button-secondary {
+  background-color: transparent;
+  color: #c2c2c2;
+  border: 1px solid #6d28d9;
+}
+
+.custom-table-system-files .p-datatable-thead > tr > th {
+  background-color: rgba(80, 21, 139, 0.323);
+  max-height: 50px;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(198, 191, 206, 0.2);
+}
+
+.custom-table-system-files .p-datatable-tbody > tr {
+  background-color: rgba(60, 26, 94, 0.24);
+  color: white;
+  border-bottom: 1px solid rgba(87, 5, 69, 0.355);
+}
+
+.custom-table-system-files .p-datatable-tbody > tr:hover {
+  background-color: rgba(100, 60, 160, 0.25);
+}
+
+.custom-table-system-files .p-column-header-content,
+.custom-table-system-files .p-datatable-tbody > tr > td {
+  padding: 1rem;
+  font-size: 0.95rem;
+}
+
+.custom-table-system-files .p-paginator {
+  background-color: transparent;
+  color: #ccc;
+  border-top: 1px solid rgba(200, 150, 255, 0.1);
+}
+
+.custom-table-system-files .p-paginator .pi {
+  color: #c094ff;
+}
+
+.custom-table-system-files .p-dropdown {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid rgba(177, 8, 228, 0.3);
+}
+
+.custom-table-system-files .p-inputtext {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  border: 1px solid rgba(200, 150, 255, 0.3);
+}
+
+.p-tooltip-text {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  font-size: 0.85rem;
+}
+
+.custom-table-system-files .p-datatable-thead > tr > th,
+.custom-table-system-files .p-datatable-tbody > tr > td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.custom-table-system-files .p-column-header-content {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.custom-table-system-files .p-sortable-column-icon,
+.custom-table-system-files .p-column-filter-menu-button {
+  margin-left: 0;
+}
+
+.custom-table-system-files .p-button,
+.custom-table-system-files .pi {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

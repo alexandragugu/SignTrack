@@ -1,0 +1,109 @@
+.user-files-container {
+  background: linear-gradient(to bottom, #0d1523, #111827);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  max-width: 900px;
+  margin-top: 80px;
+  margin-left: 20%;
+}
+
+.section-title {
+  color: #3b82f6;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.files-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #111827;
+}
+
+.files-table th,
+.files-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+}
+
+.files-table th {
+  background: #1a2333;
+  font-size: 14px;
+}
+
+.files-table tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.download-btn,
+.status-btn {
+  background: #1e40af;
+  color: white;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.download-btn:hover,
+.status-btn:hover {
+  background: #3b82f6;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #1a2333;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  color: white;
+  max-width: 450px;
+  width: 100%;
+}
+
+.status-table {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.status-table th,
+.status-table td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.close-popup {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #e63946;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-popup:hover {
+  background: #c42d36;
+}

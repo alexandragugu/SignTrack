@@ -1,0 +1,60 @@
+.signature-activity-preview {
+  background: rgba(20, 20, 40, 0.15) !important;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(177, 8, 228, 0.2);
+  color: white;
+}
+
+.preview-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #f2f0f6;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+
+.preview-value {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 0rem;
+}
+
+.preview-signer {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.preview-subvalue {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #fffdfd;
+  text-align: center;
+  margin-top: 0rem;
+}
+
+.preview-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.preview-card {
+  flex: 1;
+  background: rgba(82, 37, 104, 0.499);
+  padding: 0rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(177, 8, 228, 0.15);
+}
+
+.preview-card h4 {
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  color: #e5b2ee;
+}

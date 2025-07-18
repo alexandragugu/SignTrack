@@ -1,0 +1,137 @@
+.custom-table-container {
+  width: 100%;
+  padding: 20px;
+  background: rgba(30, 30, 47, 0.9);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.custom-table-toolbar {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.custom-icon-button.p-button {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.custom-icon-button.p-button:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: white !important;
+}
+
+.custom-icon-button .p-button-icon {
+  color: white !important;
+}
+.custom-table-bulk-delete-button {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #001cf2;
+  border-radius: 50%;
+
+  background: linear-gradient(90deg, #79119fbf, #0909a9ca);
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(51, 11, 180, 0.4);
+  transition: 0.3s ease, transform 0.2s ease;
+}
+
+.custom-table-bulk-delete-button:hover {
+  background: linear-gradient(90deg, #4c1766, #05056f);
+  transform: scale(1.05);
+}
+
+.custom-table-approve-button,
+.custom-table-view-button,
+.custom-table-sign-button,
+.custom-table-decline-button {
+  width: 3rem;
+  height: 3rem;
+  margin-left: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #34067470, #8d125c77);
+  border: 1px solid #ecedf7;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.custom-table .p-datatable-thead .p-selection-column .p-checkbox {
+  display: none !important;
+}
+
+.custom-table .p-datatable {
+  background: transparent !important;
+  color: #f1f1f1 !important;
+  font-size: 0.65rem;
+}
+
+.custom-table .p-datatable-thead > tr > th {
+  background: linear-gradient(90deg, #6a0dad51, #9b27b059) !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  border: none;
+}
+
+.custom-table .p-datatable-tbody > tr {
+  background: radial-gradient(
+    circle at center,
+    rgba(49, 35, 93, 0.549),
+    rgba(30, 30, 47, 0.9)
+  );
+  color: #e0e0e0;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-table .p-datatable-tbody > tr:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.custom-table .p-inputtext {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: #242222 !important;
+}
+
+.custom-table .p-paginator {
+  background: rgba(255, 255, 255, 0.05);
+  color: rgb(32, 30, 30);
+  border-radius: 6px;
+}
+
+.custom-table .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background: white;
+  color: rgb(42, 40, 40);
+  border-radius: 4px;
+}
+
+.custom-table .p-sortable-column-icon,
+.custom-table .p-column-filter-menu-button,
+.custom-table .pi {
+  color: #ffffff !important;
+}
+
+.custom-table .p-paginator-icon {
+  color: #ffffff !important;
+}
+
+.custom-table .p-column-filter-menu .pi {
+  color: #ffffff !important;
+  color: rgba(120, 47, 128, 0.723);
+}
+
+.custom-table .p-column-filter-menu-button:hover,
+.custom-table .p-sortable-column-icon:hover {
+  color: #dddddd !important;
+}

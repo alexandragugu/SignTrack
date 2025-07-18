@@ -1,0 +1,42 @@
+.nexu-client-wrapper {
+  background-color: #625f5f79;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nexu-client-wrapper:hover {
+  transform: scale(1.02);
+}
+
+.action-button {
+  background-color: #6a4c9c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.action-button:hover {
+  background-color: #4e368d;
+  transform: translateY(-2px);
+}
+
+#nexu_ready_alert {
+  color: #a7e3a1;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#warning-text {
+  color: #e6a1a1;
+  font-size: 16px;
+  text-align: center;
+}

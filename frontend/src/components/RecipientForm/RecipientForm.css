@@ -1,0 +1,204 @@
+.recipient-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  min-width: 400px !important;
+}
+
+.recipient-card-container {
+  width: 100%;
+  background: linear-gradient(to right, #111112a5, #17335a76, #c619cc28);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 5px 15px rgba(9, 9, 9, 0.36);
+  color: white;
+
+  align-items: left;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.p-dropdown-header {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.p-dropdown-header .p-inputtext {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: #ffffff !important;
+  border: 1px solid #8e2de2 !important;
+}
+
+.p-dropdown-item.p-focus {
+  background-color: rgba(126, 34, 206, 0.25) !important;
+  color: #ffffff !important;
+}
+
+.p-dropdown-header .p-inputtext:focus {
+  box-shadow: 0 0 5px #8e2de2 !important;
+  outline: none !important;
+}
+
+.p-dropdown-users,
+.p-dropdown-roles {
+  width: 100%;
+  background: #2a2a3d !important;
+  color: white !important;
+  border: none !important;
+  background: rgba(255, 255, 255, 0.332);
+}
+
+.p-dropdown-users .p-dropdown-label,
+.p-dropdown-roles .p-dropdown-label {
+  color: rgba(255, 255, 255, 0.985) !important;
+}
+
+.add-btn {
+  background: linear-gradient(90deg, #2a2a3d, #9b27b068);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  min-width: 45px;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cd39e7;
+}
+
+.add-btn:hover {
+  box-shadow: 0 0 14px rgba(142, 45, 226, 0.6), 0 0 30px rgba(74, 0, 224, 0.4);
+  transform: scale(1.07);
+  background: linear-gradient(135deg, #9c37f9, #5c0be0);
+  cursor: pointer;
+}
+
+.recipient-list {
+  margin-top: 20px;
+  max-height: 220px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.recipient-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to right, #2a2a3d, #6f287129);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(12, 12, 12, 0.1);
+  max-width: 70%;
+}
+
+.recipient-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipient-role {
+  font-size: 0.9rem;
+  color: #9c27b0;
+}
+
+.delete-btn {
+  background: none;
+  color: rgb(244, 231, 231);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid rgb(244, 231, 231);
+}
+
+.submit-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.submit-icon-btn {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #6a0dad45, #9b27b033);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.submit-icon-btn:hover {
+  transform: scale(1.1);
+}
+
+.p-dialog.custom-dialog {
+  background: linear-gradient(145deg, #15083e, #36022ce3);
+  color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(144, 0, 255, 0.3);
+  font-family: "Poppins", sans-serif;
+}
+
+.p-dialog.custom-dialog .p-dialog-header {
+  background: transparent;
+  border-bottom: none;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-bottom: 0;
+}
+
+.p-dialog.custom-dialog .p-dialog-content {
+  background: transparent;
+  font-size: 1.1rem;
+  color: #dddddd;
+  padding-top: 0.5rem;
+}
+
+.p-dialog.custom-dialog .p-dialog-footer {
+  background: transparent;
+  border-top: none;
+  padding-top: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.custom-dialog-btn.cancel {
+  background: transparent !important;
+  border: 1px solid #555 !important;
+  color: #ccc !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+}
+
+.custom-dialog-btn.cancel:hover {
+  background: #2c2c3e !important;
+  border-color: #777 !important;
+}
+
+.custom-dialog-btn.proceed {
+  background: linear-gradient(90deg, #8d2de2a0, #4b00e089) !important;
+  border: 1px solid #e7e7e7a0;
+  color: #ffffff !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 8px #8e2de2;
+  transition: all 0.3s ease;
+}
+
+.custom-dialog-btn.proceed:hover {
+  filter: brightness(1.1);
+}

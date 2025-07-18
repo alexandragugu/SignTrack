@@ -1,0 +1,18 @@
+.spinner-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.spinner-circle {
+  width: 64px;
+  height: 64px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #1e1b4b;
+  border-top-color: #a855f7;
+  border-radius: 9999px;
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+}

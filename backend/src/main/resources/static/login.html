@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Page</title>
+</head>
+<body>
+<h1>Authentication</h1>
+<button id="authButton">Continue Authentication</button>
+
+<script>
+    function getCodeFromURL() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get("code");
+    }
+
+    function getTokenFromURL() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get("access_token");
+    }
+
+    document.getElementById("authButton").addEventListener("click", function () {
+        const code = getCodeFromURL();
+        if (code) {
+            const targetUrl = `http://localhost:3000/oauth2?code=${encodeURIComponent(code)}`;
+            window.location.href = targetUrl;
+        } else {
+            alert("Code parameter missing in URL.");
+        }
+        const token=getTokenFromURL();
+    });
+</script>
+</body>
+</html>

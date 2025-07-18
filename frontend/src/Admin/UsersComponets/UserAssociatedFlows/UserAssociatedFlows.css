@@ -1,0 +1,100 @@
+.associated-flows-table-container {
+  width: 100%;
+  padding: 0px;
+  background: rgba(30, 30, 47, 0);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.associated-flows-bulk-delete-button {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background: linear-gradient(90deg, #310c3f6a, #02024182);
+  border: 1px solid #ffffff;
+  color: #f3f3f3;
+  padding: 0.8rem 0.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.admin-associated-flows-table .p-datatable {
+  background: rgba(20, 20, 30, 0.815) !important;
+  color: #f1f1f1 !important;
+  font-size: 0.65rem;
+}
+
+.admin-associated-flows-table .p-datatable-thead > tr > th {
+  background-color: rgba(55, 14, 96, 0.67);
+  color: #ffffff !important;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(198, 191, 206, 0.589);
+}
+
+.admin-associated-flows-table
+  .p-datatable-thead
+  .p-selection-column
+  .p-checkbox {
+  display: none !important;
+}
+
+.admin-associated-flows-table .p-datatable-tbody > tr {
+  background: radial-gradient(
+    circle at center,
+    rgba(77, 35, 93, 0.082),
+    rgba(30, 30, 47, 0.153)
+  );
+  color: #e0e0e0;
+  transition: 0.3s ease-in-out;
+}
+
+.admin-associated-flows-table .p-datatable-tbody > tr:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.admin-associated-flows-table .p-inputtext {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  color: #242222 !important;
+}
+
+.admin-associated-flows-table .p-paginator {
+  background: rgba(255, 255, 255, 0.05);
+  color: rgb(32, 30, 30);
+  border-radius: 6px;
+}
+
+.admin-associated-flows-table
+  .p-paginator
+  .p-paginator-pages
+  .p-paginator-page.p-highlight {
+  background: white;
+  color: rgb(42, 40, 40);
+  border-radius: 4px;
+}
+
+.admin-associated-flows-table .p-sortable-column-icon,
+.admin-associated-flows-table .p-column-filter-menu-button,
+.admin-associated-flows-table .pi {
+  color: #ffffff !important;
+}
+
+.admin-associated-flows-table .p-paginator-icon {
+  color: #ffffff !important;
+}
+
+.admin-associated-flows-table .p-column-filter-menu .pi {
+  color: rgba(120, 47, 128, 0.723);
+}
+
+.admin-associated-flows-table .p-column-filter-menu-button:hover,
+.admin-associated-flows-table .p-sortable-column-icon:hover {
+  color: #dddddd !important;
+}

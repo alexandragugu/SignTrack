@@ -1,0 +1,51 @@
+.p-column-filter-overlay {
+  background-color: rgba(30, 20, 40, 0.95);
+  border: 1px solid rgba(177, 8, 228, 0.4);
+  box-shadow: 0 0 12px rgba(177, 8, 228, 0.3);
+  color: black;
+  border-radius: 10px;
+}
+
+.custom-decline-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.custom-decline-button:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
+  color: white;
+  transform: scale(1.05);
+}
+
+.p-inputtext {
+  color: rgb(26, 24, 24);
+  border: 1px solid rgba(200, 150, 255, 0.3);
+}
+
+.custom-table .p-column-filter-overlay .p-button {
+  background: rgba(150, 60, 220, 0.7);
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.custom-table .p-column-filter-overlay .p-button:hover {
+  background: rgba(190, 90, 255, 0.85);
+  box-shadow: 0 0 6px rgba(177, 8, 228, 0.5);
+}
+
+.custom-table .p-column-filter-overlay .p-button.p-button-secondary {
+  background: rgba(200, 150, 255, 0.3);
+  border: 1px solid rgba(177, 8, 228, 0.6);
+  color: #e2dee2;
+}

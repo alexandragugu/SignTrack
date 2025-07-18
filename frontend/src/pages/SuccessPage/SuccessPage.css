@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+.success-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  font-family: "Inter", sans-serif;
+}
+
+.success-card {
+  background: linear-gradient(
+    135deg,
+    rgba(108, 3, 161, 0.445),
+    rgba(30, 0, 50, 0.532)
+  );
+  border-radius: 16px;
+  padding: 48px 36px;
+  width: 620px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(74, 1, 148, 0.658);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  visibility: hidden;
+}
+
+.success-title {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.success-title .split-word {
+  display: inline-block;
+  will-change: opacity, transform;
+  margin: 0 6px;
+}
+
+.success-message {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(160, 64, 255, 0.4);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(160, 64, 255, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(160, 64, 255, 0);
+  }
+}
+
+.success-button.pulse {
+  animation: pulse 1.8s infinite;
+}
+
+.success-button {
+  background: linear-gradient(135deg, #6a0dad, #4b0082);
+  color: #ffffff;
+  font-weight: 600;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 22px;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(142, 45, 226, 0.4);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.success-button:hover {
+  background: linear-gradient(135deg, #7a24cc, #5e0ead);
+  box-shadow: 0 6px 20px rgba(160, 64, 255, 0.5);
+}
+
+.icon-spacing {
+  margin-right: 8px;
+  font-size: 16px;
+}

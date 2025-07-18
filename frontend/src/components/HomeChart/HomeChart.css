@@ -1,0 +1,98 @@
+.flow-card-container {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flow-card {
+  width: 240px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.flow-card:hover {
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.flow-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.flow-card p {
+  font-size: 0.85rem;
+  opacity: 0.85;
+  margin-bottom: 1.2rem;
+}
+
+.flow-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.flow-footer i {
+  background-color: #00000066;
+  padding: 0.5rem;
+  border-radius: 50%;
+  font-size: 0.9rem;
+}
+
+.flow-card.personal {
+  background: linear-gradient(135deg, #6b21a8, #4c1d95);
+}
+
+.flow-card.assigned {
+  background: linear-gradient(135deg, #9333ea, #7e22ce);
+}
+
+.flow-card.pending {
+  background: linear-gradient(135deg, #a855f7, #8b5cf6);
+}
+
+.quick-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  margin-bottom: 10%;
+}
+
+.action-card {
+  background: linear-gradient(135deg, #6b21a8, #4c1d95);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 180px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.action-card:hover {
+  transform: scale(1.05);
+}
+
+.action-card i {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+
+.action-card span {
+  font-weight: bold;
+  font-size: 0.95rem;
+}

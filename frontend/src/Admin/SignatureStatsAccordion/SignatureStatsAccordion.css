@@ -1,0 +1,8 @@
+.accordion-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #e0d7ff;
+  font-weight: 600;
+  background: none !important;
+}

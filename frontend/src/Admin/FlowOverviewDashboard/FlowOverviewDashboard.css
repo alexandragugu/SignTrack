@@ -1,0 +1,57 @@
+.flow-dashboard-wrapper {
+  display: flex;
+  height: 100%;
+  background-color: rgba(15, 12, 20, 0.9);
+}
+
+.flow-sidebar-static {
+  width: 20%;
+  background: rgba(40, 20, 60, 0.6);
+  padding: 1rem;
+  border-right: 2px solid rgba(180, 80, 255, 0.2);
+  border-radius: 12px;
+  color: #ddd;
+  max-height: 25%;
+}
+
+.sidebar-section {
+  margin-bottom: 2rem;
+}
+
+.sidebar-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #c8a2ff;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.3rem;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-list li {
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 8px;
+}
+
+.sidebar-list li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+.sidebar-list li.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.flow-content {
+  flex-grow: 1;
+  padding: 0rem;
+}

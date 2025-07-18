@@ -1,0 +1,43 @@
+.user-stats-container {
+  padding: 2rem;
+  color: white;
+}
+
+.user-stats-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.user-stats-row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-stats-card {
+  flex: 1 1 22%;
+  min-width: 220px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(140, 50, 255, 0.4);
+  text-align: center;
+  font-size: large;
+}
+
+.user-stats-card h4 {
+  margin-bottom: 1rem;
+  color: #c8afff;
+}
+
+.user-stats-card p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.last-activity-card {
+  width: 100%;
+}

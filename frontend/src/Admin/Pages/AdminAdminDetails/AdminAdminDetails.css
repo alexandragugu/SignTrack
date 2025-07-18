@@ -1,0 +1,181 @@
+.admin-admin-details {
+  display: flex;
+  background: linear-gradient(to right, #111112a5, #17335a76, #c619cc28);
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-admin-sidebar {
+  width: 25%;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid #7e22ce;
+}
+
+.admin-admin-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(55, 54, 53, 0.841);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.admin-admin-avatar i {
+  font-size: 2rem;
+  color: white;
+}
+
+.admin-admin-username {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #ffffff;
+  word-break: break-word;
+  text-align: center;
+}
+
+.admin-admin-info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+}
+
+.admin-admin-info-card {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #a284c53b, #30112e7d);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 7px rgba(0, 0.3, 0.3, 0.7);
+  transition: transform 0.2s ease;
+}
+
+.admin-admin-info-card:hover {
+  transform: translateY(-2px);
+}
+
+.admin-admin-info-card i {
+  font-size: 1.5rem;
+  color: #a78bfa;
+  margin-right: 1rem;
+  min-width: 24px;
+}
+
+.admin-admin-info-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  white-space: wrap;
+}
+
+.admin-admin-label {
+  font-size: 0.75rem;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.2rem;
+}
+
+.admin-admin-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.admin-admin-delete-btn {
+  width: 100%;
+  background-color: #450628e6;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: 2px solid #580733cf;
+  border-radius: 6px;
+  color: #fff;
+  margin-top: 2rem;
+  transition: background-color 0.2s ease;
+}
+
+.admin-admin-delete-btn:hover {
+  background-color: #791433;
+}
+
+.admin-admin-main-content {
+  width: 100% !important;
+  padding: 2rem;
+}
+
+.admin-edit-user-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-admin-tabview .p-tabview-nav {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background: linear-gradient(to right, #1a1a2e, #16213e);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.admin-admin-tabview .p-tabview-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.admin-admin-tabview .p-tabview-nav-link:hover {
+  background: rgba(124, 58, 237, 0.2);
+  color: #a78bfa;
+}
+
+.admin-admin-tabview .p-tabview-nav-link.p-tabview-nav-link-active {
+  background: #7c3aed;
+  color: white;
+}
+
+.admin-admin-tabview .p-tabview-nav-btn {
+  background: transparent;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  margin: 0rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+  padding: 0;
+}
+
+.p-tabview-panel {
+  width: 100% !important;
+}
+
+.admin-admin-tabview .p-tabview-nav-btn:hover {
+  transform: scale(1.2);
+  color: #a78bfa;
+}
+
+.admin-admin-tabview .p-tabview-nav-link {
+  padding: 0;
+}
+
+.admin-admin-tabview .p-tabview-panels {
+  margin: 0px !important;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0rem;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  width: 100% !important;
+}
+
+.admin-admin-loading,
+.admin-admin-error {
+  color: #fff;
+  padding: 2rem;
+  font-size: 1.1rem;
+}

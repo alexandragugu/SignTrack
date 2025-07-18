@@ -1,0 +1,75 @@
+.admin-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: none !important;
+}
+
+.admin-home {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 60px;
+  color: #ffffff;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #d4a1ff;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.glow-text {
+  font-size: 2.8rem;
+  color: #d4a1ff;
+  text-shadow: 0 0 10px #8a2be2, 0 0 20px #8a2be2;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.admin-cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 16px;
+  padding: 24px;
+  width: 260px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dark-card {
+  background: #1e1e2f;
+  box-shadow: 0 4px 20px rgba(138, 43, 226, 0.25);
+  color: #fff;
+}
+
+.dark-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(191, 64, 255, 0.4);
+}
+
+.card h2 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #d4a1ff;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #aaa;
+}

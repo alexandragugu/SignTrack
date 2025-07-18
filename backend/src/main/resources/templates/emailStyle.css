@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f0f1a;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+}
+
+.email-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: linear-gradient(to right, #1f1f2f, #2a0d3a);
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(126, 34, 206, 0.3);
+    text-align: center;
+}
+
+h2 {
+    color: #a78bfa;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main-message {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px;
+    font-size: 1.6rem;
+    color: #ffffff;
+    background: radial-gradient(circle at center, #7e22ce, #4c1d95);
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 0 0 12px rgba(126, 34, 206, 0.6);
+    transition: transform 0.2s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+    background: radial-gradient(circle at center, #9f3aff, #5b21b6);
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #aaaaaa;
+    font-style: italic;
+}

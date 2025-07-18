@@ -1,0 +1,54 @@
+.signature-activity-container {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #111112a5, #17335a76, #c619cc28);
+  border-radius: 12px;
+}
+
+.signature-activity-card {
+  background: none;
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.signature-activity-title {
+  color: #c39cff;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.signature-activity-table .p-datatable {
+  background: transparent;
+  color: white;
+}
+
+.signature-activity-table .p-datatable-thead > tr > th {
+  background-color: rgba(24, 25, 48, 0.807);
+  color: #a78bfa;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(177, 8, 228, 0.4);
+}
+
+.signature-activity-table .p-datatable-tbody > tr {
+  background-color: rgba(60, 26, 94, 0.24);
+  color: white;
+  border-bottom: 1px solid rgba(87, 5, 69, 0.355);
+}
+
+.signature-activity-table .p-datatable-tbody > tr > td {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.signature-activity-table .p-paginator {
+  background-color: rgba(24, 25, 48, 0.5);
+  border-top: none;
+}
+
+.signature-activity-table .p-skeleton {
+  background: rgba(255, 255, 255, 0.08);
+}

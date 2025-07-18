@@ -1,0 +1,19 @@
+.right-panel h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  text-align: center;
+  color: #ffffffcc;
+}
+
+.file-info-container {
+  display: flex;
+  background: linear-gradient(145deg, #2a264084, #190fa12c);
+  color: #fff;
+  gap: 5%;
+  position: relative;
+  padding: 1rem;
+}
+
+.right-panel {
+  margin-left: 1px solid white;
+}

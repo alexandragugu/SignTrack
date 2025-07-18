@@ -1,0 +1,36 @@
+.document-list {
+  flex: 1;
+  max-width: 320px;
+  background: linear-gradient(to bottom, #121826, #1b2436);
+  padding: 15px;
+  border-radius: 12px;
+  overflow-y: auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  margin-left: 0;
+}
+
+.document-list ul {
+  margin-left: 0px !important;
+}
+
+.document-item {
+  padding: 12px;
+  margin-bottom: 6px;
+  background: linear-gradient(to right, #1f2937, #253143);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #cbd5e1;
+  font-weight: 500;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.document-item:hover {
+  background: linear-gradient(to right, #2b3a4e, #334155);
+  transform: scale(1.03);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}

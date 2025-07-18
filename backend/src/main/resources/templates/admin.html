@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Notification</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgba(14, 14, 26, 0.71);
+        }
+
+        .email-wrapper {
+            width: 100%;
+            background-color: rgba(14, 14, 26, 0.22);
+            padding: 40px 0;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(to right, #1f1f2f, rgba(42, 13, 58, 0.85));
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 0 20px rgba(126, 34, 206, 0.3);
+            text-align: center;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            color: #ffffff;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .main-message {
+            font-size: 1.25rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            color: #ffffff;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 0.85rem;
+            color: #aaaaaa;
+            font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            .email-container {
+                padding: 20px;
+            }
+
+            .main-message {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="email-wrapper">
+    <div class="email-container">
+        <h2>🚀 Notification</h2>
+        <p class="main-message">
+            {{messageContent}}
+        </p>
+
+        <p class="footer">
+            This is an automated message. Please do not reply.
+        </p>
+    </div>
+</div>
+</body>
+</html>

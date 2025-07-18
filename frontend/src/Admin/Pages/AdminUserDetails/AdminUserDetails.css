@@ -1,0 +1,224 @@
+.admin-user-details {
+  display: flex;
+  background: linear-gradient(to right, #111112a5, #17335a76, #c619cc28);
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar-account {
+  width: 25%;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2px solid #7e22ce;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgba(55, 54, 53, 0.841);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.avatar i {
+  font-size: 2rem;
+  color: white;
+}
+
+.info-username {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #ffffff;
+  word-break: break-word;
+  text-align: center;
+}
+
+.user-info-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+}
+
+.user-info-card {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #a284c53b, #30112e7d);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 7px rgba(0, 0.3, 0.3, 0.7);
+  transition: transform 0.2s ease;
+}
+
+.user-info-card:hover {
+  transform: translateY(-2px);
+}
+
+.user-info-card i {
+  font-size: 1.5rem;
+  color: #a78bfa;
+  margin-right: 1rem;
+  min-width: 24px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  white-space: wrap;
+}
+
+.info-label {
+  font-size: 0.75rem;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.2rem;
+}
+
+.info-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.divider {
+  color: #a78bfa;
+}
+
+.divider i {
+  font-size: 1.7rem;
+  padding: 0.5rem;
+  color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: rgba(24, 25, 48, 0.807);
+  box-shadow: 0 0 8px #7e22ce60;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.edit-user-btn {
+  background-color: #7c3aed;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  transition: background-color 0.2s ease;
+}
+
+.edit-user-btn:hover {
+  background-color: #6d28d9;
+}
+
+.delete-user-btn {
+  width: 100%;
+  background-color: #450628e6;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: 2px solid #580733cf;
+  border-radius: 6px;
+  color: #fff;
+  margin-top: 2rem;
+  transition: background-color 0.2s ease;
+}
+
+.delete-user-btn:hover {
+  background-color: #791433;
+}
+.back-button {
+  background-color: #3949ab;
+}
+
+.main-content {
+  width: 75%;
+  padding: 2rem;
+}
+
+.details-card {
+  background: rgba(255, 255, 255, 0.04);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1.5rem;
+}
+
+.details-card h2 {
+  color: #c39cff;
+  margin-bottom: 1rem;
+}
+
+.tab-text {
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}
+
+.custom-tabview .p-tabview-nav {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background: linear-gradient(to right, #1a1a2e, #16213e);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.custom-tabview .p-tabview-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-tabview .p-tabview-nav-link:hover {
+  background: rgba(124, 58, 237, 0.2);
+  color: #a78bfa;
+}
+
+.custom-tabview .p-tabview-nav-link.p-tabview-nav-link-active {
+  background: #7c3aed;
+  color: white;
+}
+
+.custom-tabview .p-tabview-nav-btn {
+  background: transparent;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  margin: 0rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+  padding: 0;
+}
+
+.custom-tabview .p-tabview-nav-btn:hover {
+  transform: scale(1.2);
+  color: #a78bfa;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.custom-tabview .p-tabview-nav-link {
+  padding: 0;
+}
+
+.custom-tabview .p-tabview-panels {
+  margin: 0px !important;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 0rem;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}

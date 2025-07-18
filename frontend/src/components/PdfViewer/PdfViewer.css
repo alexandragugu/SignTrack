@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+.pdf-viewer {
+  width: 100%;
+  height: 90%;
+  background: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.pdf-large {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.pdf-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: #2c2f3666;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  width: 90%;
+}
+
+.pdf-toolbar input {
+  width: 55px;
+  text-align: center;
+  padding: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #3a3d4467;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+
+.pdf-toolbar input:focus {
+  background: #4a4d54;
+}
+
+.pdf-toolbar-button {
+  background: none;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: center;
+}
+
+.pdf-toolbar-button:hover {
+  background: #3b6891;
+  transform: scale(1.05);
+}
+
+.pdf-toolbar-button:disabled {
+  background: #4a4d54;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.pdf-content {
+  width: 90%;
+  height: 90%;
+  min-height: 70vh;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.react-pdf__Page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+}
+
+.react-pdf__Page__canvas {
+  max-width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.react-pdf__Page__textContent {
+  min-height: 50vh;
+}

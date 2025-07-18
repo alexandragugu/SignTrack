@@ -1,0 +1,34 @@
+.signature-position-container {
+  width: 100px;
+  height: 130px;
+  background: rgba(20, 20, 35, 0.693);
+  position: relative;
+  border: 2px solid rgba(150, 100, 200, 0.6);
+  border-radius: 10px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signature-position-label {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 10px;
+  border-radius: 10px;
+  width: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: white;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.signature-position-label:hover {
+  background: rgb(150, 100, 200);
+}
+
+.signature-position-label.selected {
+  background: rgba(157, 42, 113, 0.9);
+  border: 1px solid white;
+}

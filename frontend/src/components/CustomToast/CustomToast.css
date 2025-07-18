@@ -1,0 +1,49 @@
+.custom-toast .p-toast-message {
+  background: rgba(40, 30, 60, 0.7);
+  border-left: 4px solid #1f1a23;
+  box-shadow: 0 0 12px rgba(178, 102, 255, 0.3);
+  color: #ffffff;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-toast .p-toast-message:hover {
+  box-shadow: 0 0 20px rgba(178, 102, 255, 0.5);
+  transform: scale(1.02);
+}
+
+.custom-toast .p-toast-message-success {
+  border-left-color: #9b5fff;
+  background: linear-gradient(
+    90deg,
+    rgba(24, 4, 89, 0.779),
+    rgba(60, 40, 100, 0.6)
+  );
+}
+
+.custom-toast .p-toast-message-error {
+  border-left-color: #ff4f7a;
+  background: linear-gradient(
+    90deg,
+    rgba(152, 4, 61, 0.742),
+    rgba(56, 26, 46, 0.83)
+  );
+}
+
+.custom-toast .p-toast-icon-close,
+.custom-toast .p-toast-message-icon {
+  color: white !important;
+  fill: white !important;
+}
+
+.custom-toast .p-toast-summary {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fafafa;
+}
+
+.custom-toast .p-toast-detail {
+  font-size: 0.9rem;
+  color: #f7f7f7;
+}

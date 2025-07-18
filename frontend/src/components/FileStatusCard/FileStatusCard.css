@@ -1,0 +1,132 @@
+.file-status-card {
+  padding: 0.8rem !important;
+  border-radius: 12px;
+
+  background: linear-gradient(to right, #491695bd, #130a4380, #09030f95);
+  width: 100%;
+  min-height: 120px;
+  max-height: 200px !important;
+  border: 1px solid #b302ff;
+  box-shadow: 10px 10px 10px rgba(58, 7, 124, 0.2);
+  transition: all 0.3s ease;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.file-status-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(162, 0, 255, 0.35);
+  cursor: pointer;
+}
+
+.top-bar-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1.5rem;
+  width: 100%;
+}
+
+.file-status-card .p-card .p-component {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.p-card-body {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 400px;
+  max-height: 300px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.user-icon {
+  font-size: 1.5rem;
+  color: #ccc;
+  border: 2px solid #ff07fb;
+}
+
+.status-title {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.5rem 0 0 0;
+  margin: none !important;
+  padding: none !important;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  background: none !important;
+}
+
+.status-label {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.p-tag {
+  font-size: 0.9rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+}
+
+.p-tag-value {
+  background: none !important;
+}
+
+.file-status-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.file-status-paginator {
+  margin-top: 1rem;
+  background: linear-gradient(to right, #130a4380, #270757bd, #09030f95);
+  color: white;
+  border-radius: 10xp;
+  border: 1px solid #b302ff;
+}
+
+.file-status-paginator .p-paginator-current {
+  color: white;
+  background: #645eb254;
+  border-radius: 3px;
+  width: 30%;
+}
+
+.file-status-paginator .p-paginator-prev,
+.file-status-paginator .p-paginator-next {
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.file-status-paginator .p-paginator-prev:hover,
+.file-status-paginator .p-paginator-next:hover {
+  color: #a855f7;
+  transform: scale(1.1);
+}
+
+.file-status-paginator .p-paginator-icon {
+  font-size: 1.5rem;
+}

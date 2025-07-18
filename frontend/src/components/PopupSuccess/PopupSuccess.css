@@ -1,0 +1,49 @@
+.p-dialog.custom-popup {
+  border-radius: 20px !important;
+  background: linear-gradient(145deg, #160f2d, #3f0233e3);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 25px rgba(116, 64, 199, 0.3);
+  overflow: hidden;
+  border: none;
+}
+
+.p-dialog.custom-popup .p-dialog-content {
+  padding: 2rem !important;
+  color: #ffffff;
+  text-align: center;
+  background: transparent !important;
+}
+
+.p-dialog.custom-popup .popup-title {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.p-dialog.custom-popup .popup-subtitle {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.p-dialog.custom-popup .homepage-button {
+  background: linear-gradient(90deg, #2f0e4cb3, #3c129074) !important;
+  color: white;
+  border-radius: 8px !important;
+  padding: 10px 18px;
+  border: 1px solid #e7e7e7a0;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 8px #8e2de2;
+  transition: all 0.3s ease;
+}
+
+.p-dialog.custom-popup .homepage-button:hover {
+  background: linear-gradient(to right, #5f31aa, #47268f);
+  transform: translateY(-2px);
+}
+
+.p-dialog.custom-popup .p-dialog-header,
+.p-dialog.custom-popup .p-dialog-footer {
+  display: none;
+}
